@@ -29,7 +29,7 @@ class dynamoDbStorage:
         return dictCleanData
 
     def save(self):
-        dynamodb = boto3.resource('dynamodb')
+        dynamodb = boto3.resource('dynamodb', region='us-east-1')
         table = dynamodb.Table(self.strDbTable)
 
         with table.batch_writer() as batch:

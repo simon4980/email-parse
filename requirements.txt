@@ -1,0 +1,12 @@
+boto3==1.5.8
+botocore==1.8.22
+dateparser==0.6.0
+docutils==0.14
+jmespath==0.9.3
+python-dateutil==2.6.1
+pytz==2017.3
+regex==2017.12.12
+ruamel.yaml==0.15.35
+s3transfer==0.1.12
+six==1.11.0
+tzlocal==1.5.1
